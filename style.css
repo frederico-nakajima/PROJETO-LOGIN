@@ -69,6 +69,7 @@ span#email{
 input.inp{
     background-color: black;
     border: none;
+    color: white;
 
 }
 input[type=submit]{
@@ -80,6 +81,9 @@ input[type=submit]{
     border:none;
     border-radius: 4px;
     
+}
+input[type=checkbox]{
+    margin: 0px auto 20px 7px;
 }
 p{
     text-align: center;
