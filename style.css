@@ -1,0 +1,155 @@
+/* Typical Device Breakpoints
+-------------------------------
+
+Pequenas telas: até 600px
+Celular: de 600px 768px
+Tablet: 768px até 992px
+Desktop: 992px até 1200px
+Grandes telas: acima de 1200px
+*/
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:black ;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+}
+
+section{
+    width: 250px;
+    height: 500px;
+    background-color:black ;
+    border-radius: 20px;
+    border: 1px solid rgba(128, 128, 128, 0.301);
+}
+div#imagem{
+    height: 200px;
+    background-image: url(pexels-scott-webb-139198.jpg);
+    background-position: bottom ;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 20px 20px 0px 0px;
+}
+div#formulario{
+    color: white;
+}
+form{
+    margin-top: 6px;
+}
+h1{
+    text-align: center;
+}
+
+div.campo{
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    margin:5px 5px 5px 5px; 
+    padding: 2px;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.301);
+}
+span{
+    color: white;
+  
+}
+span#email{
+    background-color: white;
+    color: black;
+
+}
+input.inp{
+    background-color: black;
+    border: none;
+
+}
+input[type=submit]{
+    background-color: rgba(137, 43, 226, 0.275);
+    color: white;
+    padding: 10px;
+    width: 95%;
+    margin:5px 2.5% 5px 2.5%; 
+    border:none;
+    border-radius: 4px;
+    
+}
+p{
+    text-align: center;
+     
+}
+.material-symbols-outlined {
+    border-radius: 6px; 
+    background-color: black;
+    color:rgba(128, 128, 128, 0.816);
+}
+
+
+
+@media screen and (min-width:768px) and (max-width:992px){
+    body{
+        background-image:linear-gradient(135deg,blueviolet ,black 30%);
+      
+    }
+    section{
+        display: grid;
+        grid-template-columns: 200px 1fr;
+        grid-template-rows: 1;
+        width: 80vw;
+    }
+    form{
+        width: 350px;
+        color: white;
+       
+    }
+    div#imagem{  
+        height: 500px;
+        border-radius: 20px 0px 0px 20px;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    div#formulario{
+        grid-column-start: 2;
+        grid-column-end:3;
+        border-radius: 0px 20px 20px 0px; 
+        align-self: center;
+        justify-self: center;
+       
+}
+}
+@media screen and (min-width:992px){
+    body{
+        background-image:linear-gradient(135deg,blueviolet ,black 30%);
+        height: 100vh;
+    }
+    section{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1;
+        width: 80vw;  
+    }
+    div#imagem{
+        height: 100%;
+        border-radius: 20px 0px 0px 20px;
+    }
+    div#formulario{
+        align-self: center; 
+        justify-self: center;
+    }
+    form{
+        width: 400px;
+       
+       
+    }
+  
+    
+    
+
+}
