@@ -57,6 +57,9 @@ div.campo{
     border-radius: 5px;
     border: 1px solid rgba(128, 128, 128, 0.301);
 }
+span.middle{
+    margin-top: 4px;
+}
 
 span#email{
     background-color: white;
