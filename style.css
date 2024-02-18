@@ -73,9 +73,7 @@ input.input{
     padding: 10px;
 
 }
-label#checkbox{
-    font-size: 3px;
-}
+
 input.submit{
     display: block;
     background-color: rgba(137, 43, 226, 0.275);
@@ -89,10 +87,7 @@ input.submit{
     
 }
 input[type=checkbox]{
-    font-size: 2px;
-    margin: 10px auto 20px 7px;
-
-     
+    margin: 10px auto 20px 7px;    
 }
 
 a#email{
@@ -101,6 +96,9 @@ a#email{
     text-decoration: none;
     color: white;
      
+}
+a#email:hover{
+    text-decoration: underline;
 }
 .material-symbols-outlined {
     border-radius: 6px; 
