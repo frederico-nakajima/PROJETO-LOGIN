@@ -70,7 +70,7 @@ input.input{
     background-color: black;
     border: none;
     color: white;
-    padding: 7px;
+    padding: 10px;
 
 }
 input.submit{
@@ -84,13 +84,12 @@ input.submit{
     
 }
 input[type=checkbox]{
-    margin: 5px auto 20px 7px;
-   
-}
-/* input.checkbox{
     font-size: 2px;
+    margin: 10px auto 20px 7px;
 
-} */
+     
+}
+
 a{
     display: block;
     text-align: center;
