@@ -70,6 +70,7 @@ input.inp{
     background-color: black;
     border: none;
     color: white;
+    padding: 7px;
 
 }
 input[type=submit]{
