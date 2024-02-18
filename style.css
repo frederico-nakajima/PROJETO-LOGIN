@@ -86,7 +86,8 @@ input[type=submit]{
 input[type=checkbox]{
     margin: 5px auto 20px 7px;
 }
-p{
+a{
+    display: block;
     text-align: center;
      
 }
