@@ -70,6 +70,9 @@ input.input{
     padding: 10px;
 
 }
+label#checkbox{
+    font-size: 3px;
+}
 input.submit{
     background-color: rgba(137, 43, 226, 0.275);
     color: white;
