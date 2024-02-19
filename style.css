@@ -130,7 +130,7 @@ a#email:hover{
        
     }
     div#imagem{  
-        height: 500px;
+        height: 550px;
         border-radius: 20px 0px 0px 20px;
         grid-column-start: 1;
         grid-column-end: 2;
